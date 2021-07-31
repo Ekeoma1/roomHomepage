@@ -132,6 +132,12 @@ nav {
   padding: 50px;
 }
 
+@media screen and (width: 280px) {
+  .slider-btn-wrapper {
+    top: 41% !important;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .logo {
     text-align: center;
@@ -143,7 +149,7 @@ nav {
   }
 
   .slider-btn-wrapper {
-    top: 45%;
+    top: 48%;
     right: 0;
   }
 }
